@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*------RESET------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*CLASS*/
+
+.holyy{
+    text-align: center;
+}
+
+.menu{
+    background-color: #201f1f;
+}
+
+.pedironline{
+    background-color: #201f1f;
+}
+
+.contactoyubicacion{
+    background-color: #201f1f;
+}
+
+.reservas{
+    background-color: #201f1f;
+}
+
+.menúprincipal h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #F7D488;
+    margin-top: 45px;
+    font-size: 50px;
+}
+
+.menú h2{
+    font-family: 'Poppins', sans-serif;
+    color: #F7D488;
+    font-size: 30px;
+    padding: 80px 0px 0px 150px;
+}
+
+.cortes h2{
+    font-family: 'Poppins', sans-serif;
+    color: #F7D488;
+    font-size: 30px;
+    padding: 80px 0px 0px 150px;
+}
+
+
+/*-------HEADER-------*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.entrar{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+header nav ul{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav ul img{
+    height: 35px;
+    width: 35px;
+    padding: 15px 0px 0px 0px;
+}
+
+
+
+header{
+    background-color:#b79d65;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: black;
+    margin: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+header p{
+    background-color:#343333;
+    color: #F7D488;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    position: static;
+}
+
+.online{
+    background-color: #343333;
+}
+
+.online a{
+    color: antiquewhite;
+    padding: 10px;
+}
+
+
+/*-------MAIN-------*/
+
+
+
+main section.holyy{
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    text-align:center;
+    height: calc(100vh - 80px);
+    width: 100%;
+    font-size:60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.holyy{
+    background-image: url(../img/asado.png);
+}
+
+.holyy a{
+    font-size: medium;
+    background-color: #F7D488;
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main section h1{
+    color: white;
+    padding-top: 125px;
+    font-weight: ;
+}
+
+main section h2{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.restaurante h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.restaurante{
+    background-image:url(../img/cocina.png) ;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    width: 100%;
+}
+
+.restaurante{
+    display: inline-block;
+}
+
+.restaurante1{
+    text-align: left;
+} 
+
+.restaurante1 h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.restaurante2{
+    text-align: center;
+}
+
+.restaurante2 h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.restaurante3{
+    text-align: right;
+}
+
+.restaurante3 h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------FOOTER------*/
+
+footer{
+    background-color:#F7D488;
+}
+
+footer div img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
